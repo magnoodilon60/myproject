@@ -5,11 +5,11 @@ Projeto para estudo,  buscando se familiarizar com os comandos do git, um pouco 
 como no projeto estamos usando Flask com arquivos HTML e CSS. Foi criada a seguinte arvore de diretorios;
 
 static
-    style.css
-    style2.css
+style.css
+style2.css
 
 templates
-    index.html
-    index1.html
+index.html
+index1.html
 
     
