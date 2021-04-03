@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 from markupsafe import escape
 
 app = Flask(__name__)
@@ -26,5 +26,12 @@ def projects():
 def about():
     return 'The about page'
 
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+@app.route('/<username>')
+def index1(username):
+    return render_template(f'{username}')
 
 app.run(port=5000, debug=True)

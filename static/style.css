@@ -1,9 +1,9 @@
 div.loadding {
-    position: absolute;
-    top: 50vh;
-    left: 50vw;
-    transform: translate(-50%, -50%);
-    width: 140px;
+    position: relative;
+    top: 100vh;
+    left: 100vw;
+    transform: translate(-75%, -75%);
+    width: 3000px;
     display: flex;
     justify-content: space-between;
 }
@@ -38,9 +38,9 @@ div.circle:nth-child(5){
         transform: translateY(0);
     }
     25% {
-        transform: translateY(-25px);
+        transform: translateY(-50px);
     }
     50% {
-        transform: translateY(0);
+        transform: translateY(-50);
     }
 }
